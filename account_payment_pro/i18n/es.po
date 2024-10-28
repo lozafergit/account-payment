@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-25 19:35+0000\n"
+"POT-Creation-Date: 2024-10-28 15:14+0000\n"
 "PO-Revision-Date: 2024-01-19 13:12+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -37,15 +37,6 @@ msgid "+ Debit Note"
 msgstr "+ Nota de Débito"
 
 #. module: account_payment_pro
-#: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_payment_form
-msgid ""
-"<span class=\"badge rounded-pill text-bg-success float-end fs-6\" invisible=\"not is_approved\">\n"
-"                <i class=\"fa fa-fw fa-check\" aria-label=\"Approved\" title=\"Approved\" role=\"img\"/>\n"
-"                <span class=\"d-none d-md-inline\">Approved</span>\n"
-"            </span>"
-msgstr ""
-
-#. module: account_payment_pro
 #: model:ir.model.fields,field_description:account_payment_pro.field_account_write_off_type__account_id
 msgid "Account"
 msgstr "Cuenta"
@@ -69,6 +60,18 @@ msgstr "Añadir todo / Refrescar"
 #: model:ir.model.fields,field_description:account_payment_pro.field_account_payment__unreconciled_amount
 msgid "Adjustment / Advance"
 msgstr "Ajuste / Adelanto"
+
+#. module: account_payment_pro
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_journal__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_move__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_move_line__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_payment__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_payment_invoice_wizard__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_account_write_off_type__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_res_company__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro.field_res_config_settings__algolia_search
+msgid "Algolia Search"
+msgstr "Busqueda Avanzada"
 
 #. module: account_payment_pro
 #. odoo-python
@@ -118,20 +121,9 @@ msgid "Analytic Precision"
 msgstr "Precisión Analítica"
 
 #. module: account_payment_pro
-#: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_payment_form
-#: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_supplier_payment_tree
-msgid "Approve"
-msgstr "Aprobar"
-
-#. module: account_payment_pro
 #: model:ir.model.fields,field_description:account_payment_pro.field_account_payment__available_journal_ids
 msgid "Available Journal"
 msgstr "Diario disponible"
-
-#. module: account_payment_pro
-#: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_payment_form
-msgid "Back to Edit"
-msgstr "Editar"
 
 #. module: account_payment_pro
 #: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_payment_invoice_wizard
@@ -360,11 +352,6 @@ msgid "Name"
 msgstr "Nombre"
 
 #. module: account_payment_pro
-#: model_terms:ir.ui.view,arch_db:account_payment_pro.view_account_payment_search
-msgid "Not approved"
-msgstr "No Aprobado"
-
-#. module: account_payment_pro
 #. odoo-python
 #: code:addons/account_payment_pro/models/account_move_line.py:0
 #, python-format
@@ -526,13 +513,6 @@ msgid "To Pay Amount"
 msgstr "Importe a Pagar"
 
 #. module: account_payment_pro
-#. odoo-python
-#: code:addons/account_payment_pro/models/account_payment.py:0
-#, python-format
-msgid "To Pay Amount and Payment Amount must be equal!"
-msgstr "Importe a Pagar e Importe deben ser iguales"
-
-#. module: account_payment_pro
 #: model:ir.model.fields,field_description:account_payment_pro.field_account_payment__to_pay_move_line_ids
 msgid "To Pay Lines"
 msgstr "Líneas a Pagar"
@@ -629,17 +609,6 @@ msgid ""
 msgstr ""
 "No se pueden crear pagos para asientos que pertenezcan a diferentes "
 "compañías"
-
-#. module: account_payment_pro
-#. odoo-python
-#: code:addons/account_payment_pro/models/account_payment.py:0
-#, python-format
-msgid ""
-"Your are trying to modify a protected field on an approved payment. Set it "
-"back to edit if you want to make this modification."
-msgstr ""
-"Está intentando modificar un campo protegido en un pago Aprobado. Vuelva a "
-"configurarlo para editar si desea realizar esta modificación."
 
 #. module: account_payment_pro
 #: model:ir.model,name:account_payment_pro.model_account_payment_invoice_wizard
