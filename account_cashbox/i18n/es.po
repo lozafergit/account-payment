@@ -3,28 +3,21 @@
 # 	* account_cashbox
 # 
 # Translators:
-# Gonzalo, 2024
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
-# Camila Vives, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 12:43+0000\n"
-"PO-Revision-Date: 2023-12-28 20:16+0000\n"
-"Last-Translator: Camila Vives, 2024\n"
+"POT-Creation-Date: 2024-11-29 14:50+0000\n"
+"PO-Revision-Date: 2024-11-29 14:48+0000\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#. module: account_cashbox
-#: model_terms:ir.ui.view,arch_db:account_cashbox.view_account_cashbox_kanban
-msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
 
 #. module: account_cashbox
 #: model_terms:ir.ui.view,arch_db:account_cashbox.view_account_cashbox_session_form
@@ -44,7 +37,6 @@ msgstr "Pagos"
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_payment.py:0
-#, python-format
 msgid ""
 "A payment (id %s) can't be posted on a pos session that is not open (session"
 " %s)'"
@@ -138,7 +130,6 @@ msgstr ""
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_payment.py:0
-#, python-format
 msgid "Can't cancel a payment on a closed payment session. Payment ids: %s"
 msgstr "No puede cancelar un pago de una sesión cerrada. Id del pago: 1%s"
 
@@ -164,14 +155,10 @@ msgid "Cashbox Session"
 msgstr "Sesión de Caja"
 
 #. module: account_cashbox
+#: model:ir.ui.menu,name:account_cashbox.menu_account_cashbox
 #: model_terms:ir.actions.act_window,help:account_cashbox.account_cashbox_action
 #: model_terms:ir.actions.act_window,help:account_cashbox.account_cashbox_settings_action
 msgid "Cashbox management"
-msgstr "Gestión de Cajas"
-
-#. module: account_cashbox
-#: model:ir.ui.menu,name:account_cashbox.menu_account_cashbox
-msgid "Cashbox manangment"
 msgstr "Gestión de Cajas"
 
 #. module: account_cashbox
@@ -273,7 +260,6 @@ msgstr ""
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_cashbox_session.py:0
-#, python-format
 msgid ""
 "En el diario \"%s\" el Balance Final Real (%s) excede la máxima diferencia "
 "permitida (%s)."
@@ -357,7 +343,6 @@ msgstr "Importar pago en la sesión"
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_cashbox_session.py:0
-#, python-format
 msgid "Import payment"
 msgstr "Importar pago"
 
@@ -508,6 +493,11 @@ msgid "POP Session"
 msgstr "Sesión"
 
 #. module: account_cashbox
+#: model:ir.model,name:account_cashbox.model_account_payment_register
+msgid "Pay"
+msgstr "Pagar"
+
+#. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__payment_ids
 msgid "Payment"
 msgstr "Pago"
@@ -538,11 +528,6 @@ msgstr "Re Abrir"
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session_line__balance_end_real
 msgid "Real Ending Balance"
 msgstr "Saldo Final Real"
-
-#. module: account_cashbox
-#: model:ir.model,name:account_cashbox.model_account_payment_register
-msgid "Register Payment"
-msgstr "Registrar pago"
 
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_payment__requiere_account_cashbox_session
@@ -616,7 +601,6 @@ msgstr ""
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_payment.py:0
-#, python-format
 msgid "The currency of the journal must be the of the payment."
 msgstr "La moneda del diario debe coincidir con la moneda del pago."
 
@@ -659,28 +643,24 @@ msgstr "Historial de comunicación del sitio web"
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_cashbox_session.py:0
-#, python-format
 msgid "You can only delete sessions in \"OPEN CONTROL\" status."
 msgstr "Solo puede borrar sesiones en estado \"Borrador\""
 
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_cashbox_session.py:0
-#, python-format
 msgid "You can only have one open Session for %s"
 msgstr "Solo puede tener una Sesion Abierta para %s"
 
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_cashbox.py:0
-#, python-format
 msgid "You cannot delete Point of Payments with sessions."
 msgstr "No es posible eliminar puntos de pagos con sesiones. "
 
 #. module: account_cashbox
 #. odoo-python
 #: code:addons/account_cashbox/models/account_payment.py:0
-#, python-format
 msgid "Your user requires to use payment session on each payment"
 msgstr "Su usuario requiere que use sesiones de caja en cada pago"
 

@@ -4,16 +4,14 @@
 # 
 # Translators:
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
-# Gonzalo, 2024
-# Rocio Vega, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 14:04+0000\n"
-"PO-Revision-Date: 2024-04-17 02:26+0000\n"
-"Last-Translator: Rocio Vega, 2024\n"
+"POT-Creation-Date: 2024-11-25 18:23+0000\n"
+"PO-Revision-Date: 2024-11-13 15:02+0000\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +89,6 @@ msgstr "Recibo de Cliente"
 #. module: account_payment_pro_receiptbook
 #. odoo-python
 #: code:addons/account_payment_pro_receiptbook/models/account_chart_template.py:0
-#, python-format
 msgid "Customer Receipts"
 msgstr "Recibos de Cliente"
 
@@ -118,7 +115,6 @@ msgstr "Secuencia de Asiento"
 #. module: account_payment_pro_receiptbook
 #. odoo-python
 #: code:addons/account_payment_pro_receiptbook/models/account_payment.py:0
-#, python-format
 msgid ""
 "Error!. Please define sequence on the receiptbook related documents to this "
 "payment."
@@ -252,7 +248,6 @@ msgstr "Pago de Proveedores"
 #. module: account_payment_pro_receiptbook
 #. odoo-python
 #: code:addons/account_payment_pro_receiptbook/models/account_chart_template.py:0
-#, python-format
 msgid "Supplier Payments"
 msgstr "Pagos de Proveedores"
 
