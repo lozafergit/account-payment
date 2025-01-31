@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-25 18:23+0000\n"
+"POT-Creation-Date: 2025-01-31 10:59+0000\n"
 "PO-Revision-Date: 2024-11-13 15:02+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -50,6 +50,12 @@ msgstr ""
 "identificar el tipo de documento con el que estamos trabajando. (no sólo "
 "relacionado con account.move, podría ser para documentos de otros modelos "
 "como stock.picking)"
+
+#. module: account_payment_pro_receiptbook
+#: model_terms:ir.ui.view,arch_db:account_payment_pro_receiptbook.view_receipt_receiptbook_form
+#: model_terms:ir.ui.view,arch_db:account_payment_pro_receiptbook.view_receipt_receiptbook_search
+msgid "Archived"
+msgstr ""
 
 #. module: account_payment_pro_receiptbook
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_payment_receiptbook__company_id
@@ -111,6 +117,14 @@ msgstr "Plantilla de correo electrónico"
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_payment_receiptbook__sequence_id
 msgid "Entry Sequence"
 msgstr "Secuencia de Asiento"
+
+#. module: account_payment_pro_receiptbook
+#. odoo-python
+#: code:addons/account_payment_pro_receiptbook/models/account_payment.py:0
+msgid ""
+"Error! The receiptbook \"%s\" is archived. Please use a differente "
+"receipbook."
+msgstr ""
 
 #. module: account_payment_pro_receiptbook
 #. odoo-python
