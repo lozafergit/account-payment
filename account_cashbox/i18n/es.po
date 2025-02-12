@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
+# Camila Vives, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 14:49+0000\n"
+"POT-Creation-Date: 2025-02-12 01:02+0000\n"
 "PO-Revision-Date: 2024-11-29 14:48+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
+"Last-Translator: Camila Vives, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +42,8 @@ msgid ""
 "A payment (id %s) can't be posted on a pos session that is not open (session"
 " %s)"
 msgstr ""
+"El pago (id 1%s) no puede ser validado en una sesión que no está abierta "
+"(sesión 1%s)"
 
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__message_needaction
@@ -430,7 +433,7 @@ msgstr "Nueva sesión"
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Próxima actividad del calendario de actividades"
 
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__activity_date_deadline
@@ -529,7 +532,7 @@ msgstr "Publicado"
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "Calificaciones"
 
 #. module: account_cashbox
 #: model_terms:ir.ui.view,arch_db:account_cashbox.view_account_cashbox_session_form
