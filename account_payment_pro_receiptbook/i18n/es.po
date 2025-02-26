@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 20:02+0000\n"
+"POT-Creation-Date: 2025-02-26 17:42+0000\n"
 "PO-Revision-Date: 2024-11-13 15:02+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -41,6 +41,7 @@ msgstr "Siguiente número de secuencia"
 
 #. module: account_payment_pro_receiptbook
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_chart_template__algolia_search
+#: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_journal__algolia_search
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_move__algolia_search
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_payment__algolia_search
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_payment_receiptbook__algolia_search
@@ -182,6 +183,11 @@ msgid "Internal Type"
 msgstr "Tipo interno"
 
 #. module: account_payment_pro_receiptbook
+#: model:ir.model,name:account_payment_pro_receiptbook.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: account_payment_pro_receiptbook
 #: model:ir.model,name:account_payment_pro_receiptbook.model_account_move
 msgid "Journal Entry"
 msgstr "Asiento contable"
@@ -301,6 +307,7 @@ msgstr ""
 "asientos de recibo de este talonario."
 
 #. module: account_payment_pro_receiptbook
+#: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_account_journal__use_receiptbook
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_res_company__use_receiptbook
 #: model:ir.model.fields,field_description:account_payment_pro_receiptbook.field_res_config_settings__use_receiptbook
 #: model_terms:ir.ui.view,arch_db:account_payment_pro_receiptbook.res_config_settings_view_form
