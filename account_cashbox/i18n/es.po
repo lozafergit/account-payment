@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-07 12:47+0000\n"
+"POT-Creation-Date: 2025-05-20 18:06+0000\n"
 "PO-Revision-Date: 2024-11-29 14:48+0000\n"
 "Last-Translator: Camila Vives, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -114,18 +114,22 @@ msgstr "Saldo Inicial"
 
 #. module: account_cashbox
 #: model:account.journal,name:account_cashbox.journal_billetera_virtual
-msgid "Billetera Virtual"
+msgid "Billetera Virtual - A"
 msgstr ""
 
 #. module: account_cashbox
 #: model:account.journal,name:account_cashbox.journal_caja_central
-msgid "Caja Central"
+msgid "Caja Central - A"
+msgstr ""
+
+#. module: account_cashbox
+#: model_terms:ir.ui.view,arch_db:account_cashbox.view_users_form_extend
+msgid "Cajas"
 msgstr ""
 
 #. module: account_cashbox
 #: model:account.journal,name:account_cashbox.journal_cajas
-#: model_terms:ir.ui.view,arch_db:account_cashbox.view_users_form_extend
-msgid "Cajas"
+msgid "Cajas - A"
 msgstr ""
 
 #. module: account_cashbox
@@ -191,7 +195,7 @@ msgstr "Compañía"
 #. module: account_cashbox
 #: model_terms:ir.ui.view,arch_db:account_cashbox.view_account_cashbox_session_form
 msgid "Control"
-msgstr ""
+msgstr "Controlar"
 
 #. module: account_cashbox
 #: model:ir.model.constraint,message:account_cashbox.constraint_account_cashbox_session_line_uniq_line
@@ -439,6 +443,11 @@ msgid "New Session"
 msgstr "Nueva sesión"
 
 #. module: account_cashbox
+#: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Siguiente plazo de actividad"
@@ -531,6 +540,11 @@ msgstr "Pagos"
 #: model:ir.model.fields.selection,name:account_cashbox.selection__account_cashbox_session__state__closed
 msgid "Published"
 msgstr "Publicado"
+
+#. module: account_cashbox
+#: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__rating_ids
+msgid "Ratings"
+msgstr ""
 
 #. module: account_cashbox
 #: model_terms:ir.ui.view,arch_db:account_cashbox.view_account_cashbox_session_form
@@ -643,7 +657,7 @@ msgstr "Validar"
 
 #. module: account_cashbox
 #: model:account.journal,name:account_cashbox.journal_viaticos
-msgid "Viaticos"
+msgid "Viaticos - A"
 msgstr ""
 
 #. module: account_cashbox
