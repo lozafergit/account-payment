@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 21:55+0000\n"
+"POT-Creation-Date: 2025-06-01 10:21+0000\n"
 "PO-Revision-Date: 2024-03-11 12:45+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. module: account_payment_ux
 #: model:ir.model,name:account_payment_ux.model_account_move
-msgid "Journal Entry"
+msgid "Account Move with Pagos360 Integration"
 msgstr "Asiento contable"
 
 #. module: account_payment_ux
