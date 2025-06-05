@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 18:06+0000\n"
+"POT-Creation-Date: 2025-06-02 21:41+0000\n"
 "PO-Revision-Date: 2024-11-29 14:48+0000\n"
 "Last-Translator: Camila Vives, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -74,7 +74,7 @@ msgstr "Ícono de Tipo de Actividad"
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox__allow_concurrent_sessions
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox_session__allow_concurrent_sessions
 msgid "Allow Concurrent Sessions"
-msgstr "Permitir sesiones recurrentes"
+msgstr "Permitir sesiones concurrentes"
 
 #. module: account_cashbox
 #: model:ir.model.fields,field_description:account_cashbox.field_account_cashbox__allow_dates_edition
