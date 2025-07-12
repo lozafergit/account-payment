@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 14:39+0000\n"
+"POT-Creation-Date: 2025-07-11 18:22+0000\n"
 "PO-Revision-Date: 2025-07-07 14:39+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -79,6 +79,7 @@ msgstr ""
 
 #. module: payment_retry
 #: model:ir.model.fields.selection,name:payment_retry.selection__account_move__payment_state__electronic_pending
+#: model:ir.model.fields.selection,name:payment_retry.selection__account_move__status_in_payment__electronic_pending
 msgid "Electronic payment"
 msgstr ""
 
@@ -186,6 +187,12 @@ msgstr ""
 #: code:addons/payment_retry/wizards/payment_transaction_retry.py:0
 msgid "Retry payments"
 msgstr ""
+
+#. module: payment_retry
+#: model:ir.model.fields,field_description:payment_retry.field_account_bank_statement_line__status_in_payment
+#: model:ir.model.fields,field_description:payment_retry.field_account_move__status_in_payment
+msgid "Status In Payment"
+msgstr "Estado en pago"
 
 #. module: payment_retry
 #: model:ir.model.fields,field_description:payment_retry.field_payment_transaction__asynchronous_process
