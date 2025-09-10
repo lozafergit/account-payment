@@ -1,20 +1,20 @@
 [submodule "ingadhoc/odoo-argentina"]
 	path = ingadhoc/odoo-argentina
-	url = https://github.com/pmolladynetis/odoo-argentina.git
+	url = https://github.com/lozafergit/odoo-argentina.git
 	branch = 18.0
 [submodule "ingadhoc/odoo-argentina-ee"]
 	path = ingadhoc/odoo-argentina-ee
-	url = https://github.com/pmolladynetis/odoo-argentina-ee.git
+	url = https://github.com/lozafergit/odoo-argentina-ee.git
 	branch = 18.0
 [submodule "ingadhoc/account-financial-tools"]
 	path = ingadhoc/account-financial-tools
-	url = https://github.com/pmolladynetis/account-financial-tools.git
+	url = https://github.com/lozafergit/account-financial-tools.git
 	branch = 18.0
 [submodule "ingadhoc/aeroo_reports"]
 	path = ingadhoc/aeroo_reports
-	url = https://github.com/pmolladynetis/aeroo_reports.git
+	url = https://github.com/lozafergit/aeroo_reports.git
 	branch = 18.0
 [submodule "ingadhoc/account-payment"]
 	path = ingadhoc/account-payment
-	url = https://github.com/pmolladynetis/account-payment.git
+	url = https://github.com/lozafergit/account-payment.git
 	branch = 18.0
